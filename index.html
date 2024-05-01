@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/1b1573e561.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+          crossorigin="anonymous"/>
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css"> <!-- Correct path to your CSS file -->
+
+    <title>Portfolio | Princess Roani Estrella</title>
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav class="white darken-2 nav-extended">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo">
+                        <i class="fa-solid fa-terminal"></i> <!-- Font Awesome icon -->
+                    </a>
+                    <a href="#!" class="sidenav-trigger black-text" data-target="mobile-demo">
+                        <i class="fa-solid fa-bars"></i> <!-- Sidenav trigger -->
+                    </a>
+                    <ul class="right hide-on-small-only">
+                        <li><a href="#home" class="black-text">Home</a></li>
+                        <li><a href="#about" class="black-text">About</a></li>
+                        <li><a href="#contact" class="black-text">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Sidenav Structure -->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#home" class="black-text">Home</a></li>
+        <li><a href="#about" class="black-text">About</a></li>
+        <li><a href="#contact" class="black-text">Contact</a></li>
+    </ul>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="content">
+            <div class="container">
+                <h2>Hi There,<br/> I'm Princess Roani <span>Estrella</span></h2>
+            <p>I'm into <span class="typing-text">Web Designing</span></p>  
+            <a href="#about" class="btn"> <span> About Me</span>
+            <i class="fas fa-arrow-circle-down"></i>
+            </a>
+            <div class="socials">
+                <ul class="social-icons">
+                    <li>
+                        <a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/princess-roani-estrella-4bb232288/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="github" aria-label="GitHub" href="https://github.com/cessy29" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="instagram" aria-label="Instagram" href="https://www.instagram.com/jigarsable.dev" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+
+        <div class="image">
+            <img draggable="false" class="tilt" src="./assets/images/gradpic.jpg" alt="Cartoon image"/>
+        </div>
+    </section> 
+    <!-- End Home --> 
+        
+    <!-- About Me -->    
+    <section class="about" id="about"> 
+        <h2 class="heading center"><i class="fas fa-user-alt"></i>About <span>Me</span></h2> 
+        <div class="row">
+            <div class="image">
+                <img draggable="false" class="tilt" src="./assets/images/cartoon.jpg" alt="Cartoon image"/>
+            </div>
+            
+
+            <div class="content">
+                <h3> I'm Princess</h3> 
+                <span class="tag"> College Instructor</span>
+                    <p> I am a College instructor in CITI Global College.
+                I graduate Bachelor of Science in Computer Science for CITI Global College. 
+                I am very passionate about improving my coding skills & developing websites.
+                    </p>  
+    
+            <div class="box-container">
+                <div class="box">
+                    <p><span>Email:</span> eprincessroani@gmail.com</p> 
+                    <p><span>Place:</span> Sta.Rosa, Laguna</p>
+                </div>
+            </div>
+           
+            </div>
+        </div>
+        
+    </section>
+    <!-- about me end  --> 
+
+
+    <!-- footer section starts -->
+<section class="footer" id="contact">
+
+    <div class="box-container">
+  
+        <div class="box">
+            <h3>Princess's Portfolio</h3>
+            <p>Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
+        </div>
+  
+    
+        <div class="box">
+            <h3>Contact Information</h3>
+            <p> <i class="fas fa-phone"></i>+63946109543</p>
+            <p> <i class="fas fa-envelope"></i>eprincessroani@gmail.com</p>
+            <p> <i class="fas fa-map-marked-alt"></i>Sta.Rosa,Laguna</p>
+            <div class="share">
+                <a href="#!" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+                <a href="#!" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+                <a href="#!" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+                <a href="#!" class="fa-brands fa-square-instagram" aria-label="Instagram" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+  
+    <h1 class="credit">Designed with <i class="fa-solid fa-heart red-text"></i> by <a href="#!">Princess Roani Estrella</a></h1>
+  
+  </section>
+  <!-- footer section ends -->
+  
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous"></script>
+
+    <!-- Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+
+
+
+    <!-- Custom JavaScript -->
+    <script>
+        $(document).ready(function () {
+            // Initialize sidenav
+            $('.sidenav').sidenav({
+                edge: 'right', // Opens from the right side
+                inDuration: 500, // Animation duration for opening
+                outDuration: 500 // Animation duration for closing
+            });
+        });
+    </script>
+</body>
+</html>

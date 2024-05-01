@@ -1,0 +1,6 @@
+/* Custom CSS for Navbar Font */
+.navbar-fixed .nav-wrapper a,
+.navbar-fixed .nav-wrapper ul li a {
+    font-family: 'Roboto', sans-serif; /* New font */
+    font-weight: 700; /* Optional: Bold */
+}
